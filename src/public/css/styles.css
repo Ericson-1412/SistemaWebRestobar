@@ -1,0 +1,112 @@
+    /* Estilo para la imagen del usuario */
+    .user-img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    .nav-item .dropdown-menu {
+      padding: 3px 0; /* Reducir el espacio dentro del menú desplegable */
+    }
+    
+    .dropdown-menu .dropdown-item {
+      font-size: 0.9rem; /* Reducir el tamaño de la fuente */
+      padding: 5px 10px; /* Reducir el padding de cada opción */
+    }
+
+    /* Reducir el ancho del menú desplegable */
+  .dropdown-menu {
+      min-width: 120px; /* Ajusta el ancho mínimo del dropdown */
+  }
+  
+  /* Reducir el padding de los items dentro del dropdown */
+  .dropdown-item {
+      padding: 5px 10px; /* Ajusta el espacio interno de cada item */
+      font-size: 0.9rem; /* Reducir el tamaño de la fuente */
+  }
+
+  .navbar {
+      background-color: #6b4818; /* Marrón claro */
+  }
+
+
+      .navbar-brand img {
+          border-radius: 50%; /* Hace que la imagen sea circular */
+        }
+    
+        /* Cambiar el color de las letras a blanco */
+        .navbar-nav .nav-link {
+          color: white !important; /* Fuerza que el texto sea blanco */
+        }
+    
+        .navbar-nav .nav-link:hover {
+          color: #ffffff !important; /* Puedes cambiar el color del hover si lo deseas */
+        }
+
+        /* Cambiar color del icono de menú (hamburger) cuando se visualiza en dispositivos pequeños */
+/* Cambiar el color de fondo del menú desplegado a blanco */
+.navbar-collapse {
+background-color: #6b4818 !important; /* Fondo blanco cuando el menú se expande */
+}
+
+  .responsive-image {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-width: 100%; /* No deja que la imagen se agrande más que el contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionar */
+    transition: transform 0.3s ease-in-out; /* Transición suave para el zoom */
+  }
+
+  /* Estilo para las tarjetas debajo de la imagen */
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .card {
+    width: 18rem; /* Tamaño de cada tarjeta */
+    margin: 10px; /* Espaciado entre las tarjetas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    height: 200px; /* Altura fija de la imagen en la tarjeta */
+    object-fit: cover; /* Hace que la imagen se ajuste bien a la tarjeta */
+  }
+  .navbar-brand span {
+    font-size: 1rem;  /* Ajusta el tamaño del texto */
+    color: #f8f9fa;     /* Cambia el color del texto */
+    font-weight: bold;  /* Haz que el texto sea en negrita */
+  }
+  .navbar-brand {
+    margin-right: 50px; /* Ajusta el valor según lo que necesites */
+  }
+
+  .carousel-item {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .carousel-image {
+    max-height: 800px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .carousel-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    z-index: 1;
+  }
+
+  .carousel-caption {
+    z-index: 2; /* Asegura que el texto esté por encima del difuminado */
+  }

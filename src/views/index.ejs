@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title><%=title %></title>
+      <%- include('partials/head') %>
+   </head>
+   <body>
+      
+    <%- include('partials/navigation') %>
+
+    <img src="img/logo_principal.png" alt="Imagen Grande" class="responsive-image">
+
+    <h2 class="text-center mt-5">Favoritos de Nuestros Clientes</h2>
+    <div class="mt-5"></div>
+    </div>
+
+<!-- Sección de tarjetas debajo del título -->
+    <div class="container">
+        <div class="row justify-content-center"> <!-- Asegura que las tarjetas se centren en todo tamaño de pantalla -->
+    
+        <!-- Hamburguesa Clasica -->
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+            <img src="https://imag.bonviveur.com/hamburguesa-clasica.jpg" class="card-img-top" alt="Hamburguesa Clasica">
+            <div class="card-body">
+                <h5 class="card-title text-center">Hamburguesa Clasica</h5>
+                <p class="card-text text-center">hamburguesa clásica con carne de res, queso, lechuga y tomate.</p>
+                <p class="card-price text-center">S/8.00</p>
+                <button class="btn btn-danger d-block mx-auto">Añadir al carrito</button>
+            </div>
+            </div>
+        </div>
+    
+        <!-- Tequila -->
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+            <img src="https://olmecaaltos.com/wp-content/uploads/2023/01/copa-margarita.webp" class="card-img-top" alt="Tequila">
+            <div class="card-body">
+                <h5 class="card-title text-center">Tequila</h5>
+                <p class="card-text text-center">Tequila premium para disfrutar solo o en cócteles refrescantes.</p>
+                <p class="card-price text-center">S/16.00</p>
+                <button class="btn btn-danger d-block mx-auto">Añadir al carrito</button>
+            </div>
+            </div>
+        </div>
+    
+        <!-- Alitas Acevichadas -->
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+            <img src="https://makimaky.com/wp-content/uploads/2023/11/Alitas-Acevichadas-1024x1024.jpg" class="card-img-top" alt="Alitas Acevichadas">
+            <div class="card-body">
+                <h5 class="card-title text-center">Alitas Acevichadas</h5>
+                <p class="card-text text-center">Alitas marinadas con una salsa de ceviche, perfectas para picar.</p>
+                <p class="card-price text-center">S/20.00</p>
+                <button class="btn btn-danger d-block mx-auto">Añadir al carrito</button>
+            </div>
+            </div>
+        </div>
+    
+        <!-- Tequeños -->
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+            <img src="https://panaderialalos.com/wp-content/uploads/2021/03/Tequenos-1.jpg" class="card-img-top" alt="Tequeños">
+            <div class="card-body">
+                <h5 class="card-title text-center">Tequeños</h5>
+                <p class="card-text text-center">Deliciosos tequeños rellenos de queso, perfectos para compartir.</p>
+                <p class="card-price text-center">S/11.00</p>
+                <button class="btn btn-danger d-block mx-auto">Añadir al carrito</button>
+            </div>
+            </div>
+        </div>
+    
+        <!-- Anticucho -->
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+            <img src="https://mandolina.co/wp-content/uploads/2024/02/anticuchos-brasilenos-1080x550-1-1200x675.jpg" class="card-img-top" alt="Anticucho">
+            <div class="card-body">
+                <h5 class="card-title text-center">Anticucho</h5>
+                <p class="card-text text-center">Carne de res marinada en especias y servida en brochetas, un clásico sabor peruano.</p>
+                <p class="card-price text-center">S/18.00</p>
+                <button class="btn btn-danger d-block mx-auto">Añadir al carrito</button>
+            </div>
+            </div>
+        </div>
+    
+        <!-- Jarra de Chicha Morada -->
+        <div class="col-md-4 d-flex justify-content-center mb-4">
+            <div class="card" style="width: 18rem;">
+            <img src="https://imag.bonviveur.com/chicha-morada.jpg" class="card-img-top" alt="Jarra de Chicha Morada">
+            <div class="card-body">
+                <h5 class="card-title text-center">Jarra de Chicha Morada</h5>
+                <p class="card-text text-center">Refrescante bebida peruana hecha a base de maíz morado y frutas naturales.</p>
+                <p class="card-price text-center">S/13.00</p>
+                <button class="btn btn-danger d-block mx-auto">Añadir al carrito</button>
+            </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+    <%- include('partials/footer') %>
+   </body>
+</html>
